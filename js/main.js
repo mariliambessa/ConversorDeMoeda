@@ -1,7 +1,7 @@
 // jQuery
 $(document).ready(function(){
 
-	const api = 'https://currencydatafeed.com/api/data.php?token=l5z9y4owzt3w2urzbfq3&currency=USD/BRL';
+	const api = 'https://currencydatafeed.com/api/data.php?token=l5z9y4owzt3w2urzbfq3&currency=EUR/BRL';
 	const botao = $('button');
 	let resultado = $('#resultado');
 
