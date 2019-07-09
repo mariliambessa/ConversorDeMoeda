@@ -12,7 +12,7 @@ $(document).ready(function(){
 			let val = data.currency[0].value;
 			let calculo = val*valor
 			resultado.html(`<p>${calculo.toFixed(2)}</p>`);
-			$('#value').val(1);
+			$('#value').val(1).focus();
 		});
 	});
 
