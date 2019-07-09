@@ -14,7 +14,8 @@ $(document).ready(function(){
 			let calculo = val*valor;
 			resultado.html(`<p>${calculo.toFixed(2)}</p>`);
 			
-			$('#value').val(1).focus();
+			$('#value').val(1).focus(); //quando clicar, volta para valor 1 e deixa o cursor selecionado no input
+			select[0].selectedIndex = 0 //após selecionar a moeda e fazer a conversão, volta ao option "selecionar moeda"
 		});
 
 		console.log(this.value); //o value de uma const pode ser trocado
